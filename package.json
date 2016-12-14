@@ -1,6 +1,6 @@
 {
   "name": "react-update-if-changed",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "performance optimizations for react",
   "main": "index.js",
   "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
