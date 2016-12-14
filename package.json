@@ -1,0 +1,25 @@
+{
+  "name": "react-update-if-changed",
+  "version": "1.0.0",
+  "description": "performance optimizations for react",
+  "main": "index.js",
+  "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
+  "license": "MIT",
+  "repository": "git@github.com:brigand/react-update-if-changed.git",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-jest": "^17.0.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "enzyme": "^2.6.0",
+    "jest": "^17.0.3",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
