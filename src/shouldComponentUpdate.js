@@ -13,12 +13,15 @@ module.exports = function(nextProps, nextState) {
 
   let changed = false;
   if (nextProps.updateIfChangedEqual !== undefined) {
-    changed = changed || isEqual(props.updateIfChangedEqual, nextProps.updateIfChangedEqual);
+    if (isEqual(props.updateIfChangedEqual, nextProps.updateIfChangedEqual)) {
+      return false;
+    }
   }
-  if (nextProps.updateIfChanged !== undefined) {
-    changed = changed || props.updateIfChanged === nextProps.updateIfChanged; 
+  else if (nextProps.updateIfChanged !== undefined) {
+    if (props.updateIfChanged === nextProps.updateIfChanged) {
+      return false;
+    }
   }
-
-  return !changed;
+  return true;
 };
 
