@@ -2,7 +2,7 @@
   "name": "react-update-if-changed",
   "version": "0.1.0",
   "description": "performance optimizations for react",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
   "license": "MIT",
   "repository": "git@github.com:brigand/react-update-if-changed.git",
